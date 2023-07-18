@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.tutorialsninja.customlisteners.CustomListeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    <test name="Account Login">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Account Register">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.AccountRegisterPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Desktops test">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.DesktopsPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Laptops Notebook">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.LaptopsAndNotebooksPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Top Menu">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.TopMenuTest"></class>
+        </classes>
+    </test>
+</suite>

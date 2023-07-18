@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.tutorialsninja.testsuite.AccountLoginPageTest"></listener>
+    </listeners>
+    <test name="Account Login">
+        <classes>
+            <class name="com.tutorialsninja.testsuite.AccountLoginPageTest"></class>
+        </classes>
+    </test>
+</suite>
